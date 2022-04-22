@@ -140,17 +140,19 @@ body {
     width: 60%;
 }
 
-.form-person__other {
+.form-person__others {
     border: none;
 }
 
-
-
+td {
+    vertical-align: text-top;
+}
 
 .svg-icon {
     margin-right: 5px;
     height: 25px;
     width: 25px;
+    transform: translateY(3px);
 }
 
 .form-person__name {
