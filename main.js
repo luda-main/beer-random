@@ -1,4 +1,3 @@
-// Hello Vue world!
 
 function birthDateToAge(b) {
     var n = new Date(),
