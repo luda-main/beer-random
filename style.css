@@ -2,8 +2,6 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
-
 @font-face {
     font-family: 'Montserrat';
     font-style: normal;
@@ -26,29 +24,6 @@
     /* Modern Browsers */
 }
 
-@font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    src: local(''),
-        url(../font/Montserrat-Bold.woff2),
-        /* Super Modern Browsers */
-        url(../font/Montserrat-Bold.woff) format('woff');
-    /* Modern Browsers */
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 800;
-    src: local(''),
-        url(../font/Montserrat-ExtraBold.woff2) format('woff2'),
-        /* Super Modern Browsers */
-        url(../font/Montserrat-ExtraBold.woff) format('woff');
-    /* Modern Browsers */
-}
-
-
 html {
     font-family: 'Montserrat', 'Roboto', sans-serif;
     color: #fff;
@@ -63,7 +38,7 @@ a {
 }
 
 body {
-    background-image: url(/beer-random/img/bg-img2.jpg);
+    background-image: url(/img/bg-img.webp);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -77,7 +52,7 @@ body {
 
 
 .div__header {
-    background-image: url(/beer-random/img/header-img.png);
+    background-image: url(/img/headerbg.avif);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -339,6 +314,10 @@ td {
 }
 
 @media (max-width:680px) {
+    body {
+        background-image: url(/img/bg-img-mobile.webp);
+    }
+
     .main__div {
         padding-right: 30px;
         padding-left: 30px;
